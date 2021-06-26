@@ -1,6 +1,6 @@
 [https://react-chat-acf95.web.app/](https://react-chat-acf95.web.app/)
 
-# Так же пишу SPA приложение на react по репетиторству. Приложение еще не дописано
+# Так же пишу SPA приложение на react по репетиторству. Приложение еще недописано
 
 [https://github.com/popiter/react-express](https://github.com/popiter/react-express)
 Инспользую [mongodb](https://www.mongodb.com/) в связке с [mongoose](https://mongoosejs.com/).

@@ -1,27 +1,78 @@
 .container {
-  max-width: 1170px;
-  margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .navbar {
-  background-color: #2e53a9;
-  height: 50px;
-  margin-bottom: 40px;
+    background-color: #2e53a9;
+    height: 50px;
+    margin-bottom: 40px;
+    p {
+        color: #fff;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .massage {
-  height: 400px;
-  overflow-y: auto;
-  border: 2px solid #323232;
-  border-radius: 10px;
-  padding-left: 20px;
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid #323232;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
 .item_massage {
-  margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .no-massage {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 10px 0 10px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+    &:focus {
+        border-bottom: 2px solid #24912c;
+        transition: all .5s;
+    }
+}
+
+.button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2e53a9;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.error-text {
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+

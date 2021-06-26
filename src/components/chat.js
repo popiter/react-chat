@@ -1,7 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {Context} from "../index";
 import {useCollectionData} from "react-firebase-hooks/firestore";
-import firebase from "firebase";
 import {Loader} from "./index";
 
 const Chat = () => {
@@ -10,7 +9,7 @@ const Chat = () => {
 		text: ''
 	});
 	const [errorMessage, setErrorMessage] = useState('');
-	const {firestore} = useContext(Context);
+	const {firestore, firebase} = useContext(Context);
 	const [messages, loading] = useCollectionData(
 		firestore.collection('messages').orderBy('date')
 	)

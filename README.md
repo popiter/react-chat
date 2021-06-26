@@ -3,8 +3,8 @@
 # Так же пишу SPA приложение на react по репетиторству. Приложение еще не дописано
 
 [https://github.com/popiter/react-express](https://github.com/popiter/react-express)
-Инспользую [mongodb](https://www.mongodb.com/) также [mongoose](https://mongoosejs.com/).
-Приложение полностью написано на классовых компонентов использую react hooks и свои хуки без redux, но основы знаю использовал в небольших приложениях 
+Инспользую [mongodb](https://www.mongodb.com/) в связке с [mongoose](https://mongoosejs.com/).
+Приложение написано на функциональных компонентах, использую react hooks и свои хуки без redux, но основы знаю, использовал в небольших учебных проектах 
 
 # Getting Started with Create React App
 

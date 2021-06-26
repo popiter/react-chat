@@ -4,7 +4,7 @@
 
 [https://github.com/popiter/react-express](https://github.com/popiter/react-express)
 Инспользую [mongodb](https://www.mongodb.com/) в связке с [mongoose](https://mongoosejs.com/).
-Приложение написано на функциональных компонентах, использую react hooks и свои хуки без redux, но основы знаю, использовал в небольших учебных проектах 
+Приложение написано на функциональных компонентах, использую react hooks и свои хуки. В данном проекте не использовал redux, но основы знаю, использовал в небольших учебных проектах 
 
 # Getting Started with Create React App
 
